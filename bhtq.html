@@ -3,58 +3,92 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bà Huyện Thanh Quan</title>
+    <title>Bà Huyện Thanh Quan 婆縣青關</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-
+    
+    <!-- fonts -->
     <style>
       @font-face {
-          font-family: Nom_Gothic;
-          src:url("assets/fonts/HanNomGothic.ttf");
+          font-family: GothicNguyen;
+          src:url("assets/fonts/GothicNguyen.ttf");
       }
-      
-      .Nom_Gothic{
-          font-family: Nom_Gothic;
+      .GothicNguyen{
+          font-family: GothicNguyen;
       }
-      </style>
-
+      @font-face {
+          font-family: NomNaFont;
+          src:url("assets/fonts/NomNaTong.ttf");
+      }
+      .NomNaFont{
+          font-family: NomNaFont;
+      }
+      @font-face {
+          font-family: HanNomKhai;
+          src:url("assets/fonts/HanNomKhai.ttf");
+      }
+      .HanNomKhai{
+          font-family: HanNomKhai;
+      }
+    </style>
   </head>
-  <body>
-      <nav class="navbar bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#" style="font-family:Nom_Gothic">
-            <img src="assets/nomicon.png" alt="Chữ Nôm 𡨸喃" width="50" height="50" class="d-inline-block align-text-sup">
-            Chữ Nôm Resources 𡨸喃
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link" href="index.html">Home</a>
-              <a class="nav-link active" aria-current="page" href="bhtq.html">Bà Huyện Thanh Quan 婆縣青關</a>
-            </div>
-          </div>      
-        </div>
-      </nav>
 
-    <div class="dropdown" style="max-width: 800px;">
-        <p style="font-family:Nom_Gothic" class="fs-1">
-          Bà Huyện Thanh Quan 婆縣青關
-        </p>
-        <p style="font-family:Nom_Gothic" class="text-center fs-1">
-          Qua đèo Ngang, 戈岹卬
-        </p>
-        <p style="font-family:Nom_Gothic" class="text-center fs-1">
-          𨀈𬧐岹卬𩃳㫼斜<br/> 
-          𦹯𣘃邅𥒥蘿邅花<br/>
-          𦡶欽𠁑𡶀樵𠄧注<br/>
-          𥋷渡邊滝𢄂買茹<br/>
-          𢖵渃𤴬𢚸𡥵國國<br/>
-          傷渃痗𠰘丐家家<br/>
-          踭蹎𨅸徠𡗶𡽫渃<br/>
-          𠬠𤗖情𥢅些貝些<br/>
-        </p>
+  <body>
+    <!-- script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html" style="font-family:GothicNguyen">
+          <img src="assets/nomicon.png" alt="Chữ Nôm 𡨸喃" width="50" height="50" class="d-inline-block align-text-sup">
+          Chữ Nôm Resources 𡨸喃
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- navbar links-->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="fonts.html">Fonts</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Poems
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="bhtq.html">Bà Huyện Thanh Quan 婆縣青關</a></li>
+                <li><a class="dropdown-item" href="#">Hồ Xuân Hương 胡春香</a></li>
+                <li><a class="dropdown-item" href="nguyendu.html">Nguyễn Du 阮攸</a></li>
+              </ul>
+          </ul>
+        </div>    
       </div>
+    </nav>
+    <!-- card poem -->
+    <div class="card" style="width: 38rem;">
+      <img src="assets/quadeongang.png" class="img-fluid" alt="Qua Đèo Ngang">         
+      <div class="card-body">           
+        <h5 class="card-title">
+          Qua Đèo Ngang
+        </h5>           
+        <h6 class="card-subtitle mb-2 text-body-secondary">
+          Poem by Bà Huyện Thanh Quan 婆縣青關
+        </h6>           
+        <p class="card-text fs-4" style="font-family:NomNaFont">
+          𨀈𫴋岧昂𩄴尺斜 Bước xuống đèo ngang, bóng xế tà,<br/>              
+          𦹵𣘃𨆁𥒥𦲿𨆁花 Cỏ cây chen đá, lá chen hoa.<br/>             
+          臨欽𠁑𡶀樵𢽼住 Lom khom dưới núi, tiều và chú,<br/>             
+          落鐸边滝𢄂𠇍茹 Lác đác bên sông, chợ mấy nhà.<br/>             
+          𢖵渃𤴬𢚸𡥵𪅦𪅦 Nhớ nước đau lòng, con quốc quốc,<br/>             
+          傷茹痗𠰘丐𬷬𬷬 Thương nhà mỏi miệng, cái gia gia.<br/>             
+          停蹎𥪸吏制𡽫渃 Giừng chân đứng lại, chơi, non, nước,<br/>             
+          𱥺𤗖情𥢆些買些 Một mảnh tình riêng ta mấy ta.<br/>           
+        </p>         
+      </div>       
+    </div>
   </body>
 </html>
